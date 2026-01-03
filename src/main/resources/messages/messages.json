@@ -1,0 +1,66 @@
+{
+  "commands": {
+    "whitelist": {
+      "help": {
+        "header": "<grey>--- <gold>Whitelist Befehle <grey>---",
+        "add": "<yellow>/whitelist add <playerName> <grey>- Fügt einen Spieler zur Whitelist hinzu.",
+        "remove": "<yellow>/whitelist remove <playerName> <grey>- Entfernt einen Spieler von der Whitelist.",
+        "info": "<yellow>/whitelist list <grey>- Zeigt alle Spieler auf der Whitelist an.",
+        "sync": "<yellow>/whitelist sync <grey>- Synchronisiert die Whitelist mit dem Backend.",
+        "reload": "<yellow>/whitelist reload <grey>- Lädt die Config & Messages neu."
+      },
+      "info": {
+        "header": "<grey>--- <gold>Whitelist Einträge <grey>---",
+        "entry": "<grey>- <yellow>{playerName} <grey>(Seit: <aqua>{timestamp}<grey>)",
+        "empty_whitelist": "<red>Die Whitelist ist derzeit leer"
+      },
+      "sync": {
+        "start": "<green>Starte die Synchronisierung der Whitelist...",
+        "success": "<green>Synchronisierung abgeschlossen! Namen wurden geladen.",
+        "sync_error": "<red>Fehler beim Synchronisieren der Whitelist: {errorMessage}"
+      },
+      "add": {
+        "success": "<green>Der Spieler <yellow>{playerName} <green>wurde zur Whitelist hinzugefügt.",
+        "already_exists": "<red>Der Spieler <yellow>{playerName} <red>ist bereits auf der Whitelist.",
+        "usage": "<red>Verwendung: /whitelist add <playerName>"
+      },
+      "remove": {
+        "success": "<green>Der Spieler <yellow>{playerName} <green>wurde von der Whitelist entfernt.",
+        "not_found": "<red>Der Spieler <yellow>{playerName} <red>ist nicht auf der Whitelist.",
+        "usage": "<red>Verwendung: /whitelist remove <playerName>"
+      },
+      "reload": {
+        "success": "<green>Konfiguration und Nachrichten wurden erfolgreich neu geladen!"
+      }
+    },
+    "maintenance": {
+        "help": {
+            "header": "<grey>--- <gold>MOTD Befehle <grey>---",
+            "on": "<yellow>/maintenance on <grey>- Setzt den Server in den Wartungsmodus.",
+            "off": "<yellow>/maintenance off <grey>- Deaktiviert den Server Wartungsmodus.",
+            "reload": "<yellow>/maintenance reload <grey>- Lädt die Config & Messages neu."
+        },
+        "on": {
+            "success": "<green>Der Wartungsmodus wurde aktiviert. MOTD-Nachricht gesetzt.",
+            "already_on": "<red>Der Wartungsmodus ist bereits aktiviert."
+        },
+        "off": {
+            "success": "<green>Der Wartungsmodus wurde deaktiviert. MOTD-Nachricht zurückgesetzt.",
+            "already_off": "<red>Der Wartungsmodus ist bereits deaktiviert."
+        },
+        "reload": {
+            "success": "<green>Konfiguration und Nachrichten wurden erfolgreich neu geladen!"
+        },
+      "kick_message": "<red><b>WARTUNGSARBEITEN</b></red>\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>\n\n<white>Unser Netzwerk ist derzeit <red><b>offline</b></white>.\n<gray>Wir führen aktuell wichtige System-Updates durch,\n<gray>um dein Spielerlebnis zu verbessern.\n\n<yellow>Folge uns für Updates:</yellow> <blue><u>discord.gg/deinlink</u></blue>\n\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>\n<gold><i>MecryTV Netzwerk</i></gold>"
+    }
+  },
+  "errors": {
+    "only_player": "<red>Dieser Befehl kann nur von einem Spieler ausgeführt werden.",
+    "no_permission": "<red>Du hast keine Berechtigung, diesen Befehl auszuführen.",
+    "player_not_found": "<red>Der Spieler <yellow>{playerName} <red>konnte nicht gefunden werden.",
+    "command_blocked": "<red>Dieser Befehl ist auf diesem Netzwerk gesperrt!",
+    "vpn_detected": "<red><b><underlined>SICHERHEITSSYSTEM</underlined></b></red>\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>\n\n<white>Deine Verbindung wurde <red><b>abgelehnt</b></white>.\n<gray>Es wurde erkannt, dass du einen <red><b>VPN</b></red> oder <red><b>Proxy</b></red>\n<gray>verwendest, um dich zu verbinden.\n\n<yellow>Warum wurde ich blockiert?</yellow>\n<white>Um unser Netzwerk vor Bots und Griefern zu schützen,\n<white>sind VPN-Verbindungen bei uns nicht erlaubt.\n\n<gray>Bitte schalte deinen VPN aus und versuche es erneut.\n\n<blue><u>discord.gg/deinlink</u></blue>\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>\n<gold><i>MecryTV ProxyTools</i></gold>",
+    "too_many_alts": "<red><b>ZWEITACCOUNT-LIMIT ERREICHT</b></red>\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>\n\n<white>Du hast das Limit an erlaubten Accounts pro IP erreicht.\n<gray>Es sind maximal <yellow>2 Accounts <gray>pro Verbindung erlaubt.\n\n<white>Falls du Geschwister hast, melde dich im Support.",
+    "anti_bot_kick": "<red><b><underlined>ANTI-BOT SYSTEM</underlined></b></red>\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>\n\n<white>Das Netzwerk wird aktuell angegriffen.\n<gray>Der <red>Sentry-Modus</red> wurde automatisch aktiviert.\n\n<yellow>Da du zum ersten Mal joinst, bist du noch nicht verifiziert.\n<white>Bitte versuche es in wenigen Minuten erneut.\n\n<gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "mariadb": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "proxytools",
+    "user": "admin",
+    "password": "DAe^pN0k435i&a6*"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "password": "Lw42Piz*9PVRXucu"
+  },
+  "prefix": "<dark_grey>[<aqua>Proxy<light_purple>Tools<dark_grey>] ",
+  "anti_vpn": {
+    "enabled": true,
+    "api_key": "5719um-288154-0l3794-712e13"
+  },
+  "anti_alt": {
+    "enabled": true,
+    "max_accounts_per_ip": 2
+  },
+  "anti_bot": {
+    "enabled": true,
+    "threshold": 5,
+    "sentry_duration": 60
+  },
+  "blocked_commands": [
+    "plugins",
+    "pl",
+    "version",
+    "ver",
+    "about",
+    "help",
+    "?",
+    "velocity",
+    "server",
+    "glist",
+    "perms",
+    "lp",
+    "luckperms",
+    "restart",
+    "stop",
+    "reload",
+    "rl"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "maintenance": {
+    "top_line": "<red>TrophyMC.net <dark_gray>| <dark_red>Wartungsarbeiten",
+    "bottom_line": "<gray>Besuche uns bald wieder <dark_gray>» <white>discord.gg/trophymc"
+  },
+  "default": {
+    "top_line": "<gold>TrophyMC Network <dark_gray>| <yellow>Open Beta Release!",
+    "bottom_line": "<gray>Version: <white>1.8.x - 1.20.x <dark_gray>| <yellow>Viel Spaß!"
+  }
+}
