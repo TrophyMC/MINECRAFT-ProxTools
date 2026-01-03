@@ -1,20 +1,20 @@
 {
   "mariadb": {
-    "host": "127.0.0.1",
-    "port": 3306,
-    "database": "proxytools",
-    "user": "admin",
-    "password": "DAe^pN0k435i&a6*"
+    "host": host,
+    "port": port,
+    "database": database,
+    "user": user,
+    "password": password
   },
   "redis": {
-    "host": "127.0.0.1",
-    "port": 6379,
-    "password": "Lw42Piz*9PVRXucu"
+    "host": host,
+    "port": port,
+    "password": password
   },
   "prefix": "<dark_grey>[<aqua>Proxy<light_purple>Tools<dark_grey>] ",
   "anti_vpn": {
     "enabled": true,
-    "api_key": "5719um-288154-0l3794-712e13"
+    "api_key": apiKey
   },
   "anti_alt": {
     "enabled": true,
